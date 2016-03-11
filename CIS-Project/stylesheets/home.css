@@ -4,8 +4,15 @@ home.css
 Spring 2016
 David Van
 */
+html {
+	background-image: url("../bg-image/cyanbg.jpg");
+	background-position: top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
 
-html, body {
+
+htmls, bodys {
 	height: 99%; /* do not want 100% */
 	background-color: #F0F0F0 ;
 	font-family:"Lucida Sans" , Helvetica, Calibri, Ariel, sans-serif;
@@ -17,7 +24,6 @@ header{
 	border-top: 15px solid #00CCFF;
 	border-bottom: 15px solid #00CCFF;
 }
-
 
 header ul {
     margin: 0;
@@ -44,10 +50,7 @@ header ul a {
     text-transform: uppercase;
 }
 
-#nav1 {
-	background-color: cyan;
 
-}
 
 header ul a:hover { background: rgba(15,25,175,0.1); }
 
