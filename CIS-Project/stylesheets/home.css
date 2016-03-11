@@ -1,0 +1,65 @@
+/* 
+Project
+home.css
+Spring 2016
+David Van
+*/
+
+html, body {
+	height: 99%; /* do not want 100% */
+	background-color: #F0F0F0 ;
+	font-family:"Lucida Sans" , Helvetica, Calibri, Ariel, sans-serif;
+}
+
+header{
+	width: 100%;
+	background-color: white;
+	border-top: 15px solid #00CCFF;
+	border-bottom: 15px solid #00CCFF;
+}
+
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+    overflow: hidden; 
+}
+
+header ul li {
+    float: left; 
+    width: 7%;
+    margin: auto; 
+    text-align: center	;
+}
+
+header ul a { 
+    color: #006600;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none; 
+    padding: 5px 0px 5px 0px;
+    text-transform: uppercase;
+}
+
+header ul a:hover { background: rgba(15,25,175,0.1); }
+
+footer{
+	height: 30px;
+	width: 100%;
+	position: absolute;
+}
+
+#footermenu{
+	border-top: thin solid blue;
+	font-size: 8px;
+}
+footer #footer_bot{
+	width: 100%;
+	font-weight: bold;
+	font-size: 10px;
+	text-align: center;
+	border-top: 3px solid blue;
+}
