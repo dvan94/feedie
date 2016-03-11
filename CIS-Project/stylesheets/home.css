@@ -44,6 +44,11 @@ header ul a {
     text-transform: uppercase;
 }
 
+#nav1 {
+	background-color: cyan;
+
+}
+
 header ul a:hover { background: rgba(15,25,175,0.1); }
 
 footer{
